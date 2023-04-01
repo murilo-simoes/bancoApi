@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:admin@localhost:5432/ng-cash?schema=public"
+  url      = "postgresql://postgres:admin@postgres:5432/ng-cash?schema=public"
 }
 
 model Users {
