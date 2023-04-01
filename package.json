@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx nodemon --exec ts-node src/server.ts",
-    "prisma": "npx prisma migrate dev"
+    "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
