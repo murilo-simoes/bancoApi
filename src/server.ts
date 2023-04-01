@@ -9,7 +9,7 @@ async function bootstrap() {
   await app.use(express.json());
   await app.use(router);
 
-  await app.listen({ port: 3333, host: "0.0.0.0" });
+  await app.listen(3333, () => console.log("Server is running"));
 }
 
 bootstrap();
